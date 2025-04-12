@@ -1,1 +1,22 @@
+name: Deploy Branch CI
 
+on:
+  push:
+    branches:
+      - deploy
+
+jobs:
+  "setup-sample-data":
+    runs-on: self-hosted
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Remove old sample DB
+        run: |
+          npm install
+          npx ts-node remove_db.ts
+
+      - name: Insert new sample DB
+        run: |
+          npx ts-node insert_sample_db.ts

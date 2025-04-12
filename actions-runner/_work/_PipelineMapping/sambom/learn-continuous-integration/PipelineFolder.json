@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "sambom/learn-continuous-integration",
+  "pipelineDirectory": "learn-continuous-integration",
+  "workspaceDirectory": "learn-continuous-integration/learn-continuous-integration",
+  "repositories": {
+    "sambom/learn-continuous-integration": {
+      "repositoryPath": "learn-continuous-integration/learn-continuous-integration",
+      "lastRunOn": "04/11/2025 23:33:07 -04:00"
+    }
+  },
+  "lastRunOn": "04/11/2025 23:34:42 -04:00"
+}
