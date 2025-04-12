@@ -15,8 +15,8 @@ jobs:
       - name: Remove old sample DB
         run: |
           npm install
-          npx ts-node remove_db.ts
+          npx ts-node remove_db.ts "mongodb://127.0.0.1:27017/my_library_db"
 
       - name: Insert new sample DB
         run: |
-          npx ts-node insert_sample_db.ts
+          npx ts-node insert_sample_db.ts "mongodb://127.0.0.1:27017/my_library_db"
