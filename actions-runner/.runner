@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "MacBookPro",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus9.actions.githubusercontent.com/VwwMDrdrGG6QHhcvk8iZF1kQBB8BZFIPqEjKQGRMVNRp2plYO9/",
+  "gitHubUrl": "https://github.com/sambom/learn-continuous-integration",
+  "workFolder": "_work"
+}
